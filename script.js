@@ -12,7 +12,6 @@ let PAGE = 1;
 let moviesShowing = true;
 
 // test-branch-a changes
-// test-branch-b test
 // functions 
 async function getMovies(PAGE) {
   const result = await fetch(
